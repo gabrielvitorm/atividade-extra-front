@@ -1,0 +1,156 @@
+*{
+    margin: auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+.header-init{
+    flex-wrap: wrap;
+    display: flex;
+    background-color: #333 ;
+   justify-content: space-between;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+
+.header-init h1{
+    font-size: 35px;
+    color: aliceblue;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.nav-list ul{
+    display: flex;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+a:hover{
+    color: #535353;
+}
+
+main{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    height: 78vh;
+    align-content: center;
+}
+
+main h2{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.myForm{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 600px;
+    border-radius: 30px;
+    background-color: #535353;
+    padding: 30px;
+    align-content: center;
+}
+
+label{
+    color: aliceblue;
+    justify-content: left;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+input{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+
+input[type="text"]::placeholder{
+    font-size: 15px;
+    color: #333;
+    padding-left: 10px;
+}
+
+input[type="email"]::placeholder{
+    font-size: 15px;
+    color: #333;
+    padding-left: 10px;
+}
+
+textarea::placeholder {
+    font-size: 15px;
+    color: #333;
+    padding-left: 10px;
+}
+
+.form-input{
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.footer-fim{
+    flex-wrap: wrap;
+    display: flex;
+    background-color: #333 ;
+   justify-content: space-between;
+   height: 100px;
+}
+
+.footer-fim p{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+.resultado {
+    background-color: #f0f0f0;
+    padding: 40px;
+    border-radius: 5px;
+    width: 600px;
+}
+
+.resultado p {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
